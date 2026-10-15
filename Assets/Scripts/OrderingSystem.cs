@@ -30,10 +30,6 @@ public class OrderingSystem : MonoBehaviour
                 Debug.Log("I would like an Espresso please");
             }
         }
-        if (customersRemaining == 0)
-        {
-            Debug.Log("The shop is now closing");
-        }
     }
     void Update()
     {
